@@ -1,0 +1,11 @@
+{
+  // Test-specific TypeScript configuration
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // Disable strict checks that are often noisy in test files
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    // Enable JS support for test helpers written in JavaScript
+    "allowJs": true
+  }
+}
